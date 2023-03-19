@@ -12,4 +12,4 @@ for (i = 0; i < 26; i++)
 {
 putchar(alp[i]);
 putchar('\n');
-Return (0);
+return (0);
