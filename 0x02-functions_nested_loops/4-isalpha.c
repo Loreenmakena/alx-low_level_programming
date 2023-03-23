@@ -4,7 +4,7 @@
  * @c: The character to be checked
  * Return: 1 for alphabetic character of 0 for anything else
  */
-int _isisalpha(int c)
+int _isalpha(int c)
 {
 if ((c >= 65 && c <=97) || (c >= 97 && c <= 122))
 {
