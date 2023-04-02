@@ -2,19 +2,18 @@
 /**
  * print_most_numbers - prints the numbers since 0 up to 9
  * Description: prints the numbers excluding 2 and 4
- * Return: The numbers since 0 up to 9
+ * Return: Always 0.
  */
 void print_most_numbers(void)
 {
-int x = 0;
-for (; x <= 0; x++)
+int c;
+for (c = 48; c < 58; c++)
 {
-if (x == 2 || x == 4)
-continue;
+if (c != 50)
 }
-else
+if (c !=52)
 {
-_putchar(x + '0');
+_putchar(c);
 }
 _putchar('\n');
 }
