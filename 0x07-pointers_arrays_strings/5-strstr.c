@@ -8,7 +8,7 @@
  * of the located substring.
  * if the substring is not located - NULL.
  */
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
 {
 int index;
 if (*needle == 0)
